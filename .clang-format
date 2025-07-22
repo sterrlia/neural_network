@@ -1,0 +1,26 @@
+BasedOnStyle: Mozilla
+
+IndentAccessModifiers: false
+
+ColumnLimit: 80
+BinPackParameters: false          # Each param on its own line
+AllowAllParametersOfDeclarationOnNextLine: false
+IndentWrappedFunctionNames: true
+BreakBeforeBraces: Allman #Attach         # Brace on same line as closing paren
+
+
+AllowShortFunctionsOnASingleLine: None
+BinPackArguments: false
+PenaltyBreakString: 1000
+MaxEmptyLinesToKeep: 1
+
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+AccessModifierOffset: -4
+
+
+AlignAfterOpenBracket: DontAlign
+
