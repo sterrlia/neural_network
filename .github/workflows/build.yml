@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y meson ninja-build g++ pkg-config
+
+      - name: Set up build directory
+        run: make setup
+
+      - name: Build project
+        run: make build
