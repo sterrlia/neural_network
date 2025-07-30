@@ -1,14 +1,15 @@
 ## Dense neural network implementation
+- Built for learning purposes
 
 ### Features
 - Network generation
-- Sigmoid as activation function
+- Sigmoid activation function
 - Xavier Glorot weight initialization
 - Forward pass
-- Back propagation
+- Backpropagation
 - Matrix for weights
 
-### Dev install
+### Development install
 Make sure you have Eigen-3.4.0 installed system-wide
 
 ```bash
