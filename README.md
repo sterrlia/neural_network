@@ -1,4 +1,5 @@
 ## Dense neural network implementation
+- Neural network implementation from scratch in C++
 - Built for learning purposes
 
 ### Features
