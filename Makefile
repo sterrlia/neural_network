@@ -3,10 +3,11 @@
 BUILDDIR = "build"
 
 setup:
-	meson setup $(BUILDDIR)
+	@mkdir build
+	@meson setup $(BUILDDIR)
 
 build:
-	meson compile -C $(BUILDDIR)
+	@meson compile -C $(BUILDDIR)
 
-run:
+test:
 	@./build/neural_network
