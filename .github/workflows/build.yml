@@ -33,5 +33,5 @@ jobs:
         with:
           name: neural_network_artifacts
           path: |
-            release/usr/local/bin/neural_network
-            release/usr/local/lib64/libneural_network.so
+            build/release/usr/local/bin/neural_network
+            build/release/usr/local/lib64/libneural_network.so
